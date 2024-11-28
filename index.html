@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Image Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text to Image Generator</h1>
+        <textarea id="prompt" placeholder="Enter your text prompt here..."></textarea>
+        <div class="button-container">
+            <button onclick="generateImage()">Generate Image</button>
+            <button onclick="clearResults()">Clear Results</button>
+            <button onclick="generateRandomText()">Random Text</button>
+        </div>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
