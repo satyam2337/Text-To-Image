@@ -18,7 +18,7 @@ async function generateImage() {
   results.appendChild(card);
 
   const response = await fetch(
-      "https://api-inference.huggingface.co/models/ZB-Tech/Text-to-Image",
+      "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-dev",
       {
           headers: {
               Authorization: "Bearer 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",
